@@ -1,0 +1,24 @@
+Testing priority queue class: NoPQ
+NoPQ FAIL: Unable to construct instance of NoPQ
+   0 TOTAL TESTS RUN
+Testing priority queue class: PQ01
+  11 PASSED
+   0 FAILED
+  11 TOTAL TESTS RUN
+Testing priority queue class: PQ02
+FAILED test00isEmpty: unexpectedly threw java.lang.NullPointerException
+FAILED test07insertManyRemovingOneOver: unexpectedly threw java.lang.ArrayIndexOutOfBoundsException
+   8 PASSED
+   2 FAILED
+  10 TOTAL TESTS RUN
+Testing priority queue class: PQ03
+FAILED test04insertRemoveMany: the items were not removed in priority order. Inserted '5 8 4 7 3'
+Expected output: 8 7 5 4 3. 
+Actual output: 8 8 7 5 4.
+FAILED test06manyDataItems: priority queue does not expand internal data structure to allow many items to be added and removed
+FAILED test08insertRemoveIterations: getMax on iteration loop #11 did not match value inserted.
+ Expected output: -1982864901, Actual output: -793755693
+FAILED test10consistentGetMax: threw java.lang.NullPointerException
+   7 PASSED
+   4 FAILED
+  11 TOTAL TESTS RUN
